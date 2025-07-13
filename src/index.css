@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.optional-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    @apply bg-stone-800
+}
+
+/* HeaderStyles */
+
+.header-link {
+    @apply text-white text-xl
+}
+
+.nonactive-link {
+    @apply text-gray-400 text-xl
+}
+
+.header-button {
+    @apply w-fit aspect-auto
+}
+
+.header-b-img {
+    @apply w-8 h-8
+}
+
+/* ItemPreview */
+
+.sizeselect-button {
+    @apply bg-white w-[90px] h-[50px] cursor-pointer rounded-xl text-2xl text-center p-3 font-thin;
+    box-shadow: 8px 8px 16px #707070,
+            -8px -8px 16px #000000;
+}
+
+.look-for-items::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    left: -20px;
+    width: 20px;
+    height: 20px;
+    background-image: url('../src/assets/loupe.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.look-for-items {
+    position: relative;
+}
+
+/* .gradient-bg {
+    position: relative;
+    z-index: 1;
+}
+
+.gradient-bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 50px;
+    z-index: 0;
+    opacity: 0.3;
+    background: linear-gradient(139deg, gray 25%, white 50%, gray 77%);
+} */

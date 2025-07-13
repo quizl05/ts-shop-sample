@@ -1,0 +1,52 @@
+[
+{
+    "name": "Nike Air Force 1 Low Protro Kobe Bryant Mamba Mentality",
+    "mainimage": "/shoes/airforcekobe/airforcekobe.webp",
+    "price": 180.00,
+    "currency": "USD",
+    "instock": true,
+    "images": {
+        "pic1": "/shoes/airforcekobe/airforcekobe.webp",
+        "pic2": "/shoes/airforcekobe/kodeboth.jpg",
+        "pic3": "/shoes/airforcekobe/kobebackground.jpg"
+    }
+},
+{
+    "name": "Air Jordan 5 Retro OG 'Grape'",
+    "mainimage": "/shoes/jordanretrogrape/jordanretrogrape.webp",
+    "price": 320.00,
+    "currency": "USD",
+    "instock": true,
+    "images": {
+        "pic1": "/shoes/jordanretrogrape/jordanretrogrape.webp",
+        "pic2": "/shoes/jordanretrogrape/jordangrapefrontboth.png",
+        "pic3": "/shoes/jordanretrogrape/jordangrapebackground.png"
+    }
+},
+{
+    "name": "Nike SB Dunk Low The Wizard of Oz Poppy Field",
+    "mainimage": "/shoes/sbdunklow/SB_Dunk_Low_The_Wizard_of_Oz_Poppy_Field.png",
+    "price": 150.00,
+    "currency": "USD",
+    "instock": true,
+    "images": {
+        "pic1": "/shoes/sbdunklow/SB_Dunk_Low_The_Wizard_of_Oz_Poppy_Field.png",
+        "pic2": "/shoes/sbdunklow/sbdunklowfront.jpg",
+        "pic3": "/shoes/sbdunklow/sbdunklowback.jpg"
+    }
+},
+{
+    "name": "Nike Air Max 95 SP A Ma Maniére While You Were Sleeping",
+    "mainimage": "/shoes/nikeairmax/nike-air-max95.png",
+    "price": 220.00,
+    "currency": "USD",
+    "instock": false,
+    "images": {
+        "pic1": "/shoes/nikeairmax/nike-air-max95.png",
+        "pic2": "/shoes/nikeairmax/nikeairmaxfront.png",
+        "pic3": "/shoes/nikeairmax/nikeairmaxbackground.png"
+    }
+}
+]
+
+
